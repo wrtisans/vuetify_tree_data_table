@@ -1,12 +1,15 @@
 {
-  "name": "v-tree-data-table",
-  "version": "1.0.17",
+  "name": "@wrtisans/v-tree-data-table",
+  "version": "1.0.18",
   "description": "A Data Table with a Tree for Vuetify.",
   "main": "dist/v-tree-data-table.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
   "author": "Russell Holmes",
+  "contributors": [
+    "David Sanchez"
+  ],
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.3.4",
@@ -28,10 +31,10 @@
     "webpack-merge": "^4.1.4",
     "yarn": "^1.7.0"
   },
-  "repository": "git+https://github.com/portablemind/vuetify_tree_data_table.git",
-  "homepage": "https://github.com/portablemind/vuetify_tree_data_table",
+  "repository": "git+https://github.com/wrtisans/vuetify_tree_data_table.git",
+  "homepage": "https://github.com/wrtisans/vuetify_tree_data_table",
   "bugs": {
-    "url": "https://github.com/portablemind/vuetify_tree_data_table/issues"
+    "url": "https://github.com/wrtisans/vuetify_tree_data_table/issues"
   },
   "keywords": [
     "vuetify",
